@@ -1,7 +1,7 @@
 #  Credit Risk & NPA Delinquency Tracker
 
 ##  Objective
-Leveraging 5 years of domain expertise in retail banking and risk control to architect an automated SQL pipeline. This project connects customer loan profiles with EMI repayment histories to dynamically track delinquencies and automatically classify Non-Performing Assets (NPAs).
+This project connects customer loan profiles with EMI repayment histories to dynamically track delinquencies and automatically classify Non-Performing Assets (NPAs).
 
 ##  Technical Skills Demonstrated
 
