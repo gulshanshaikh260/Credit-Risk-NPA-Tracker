@@ -1,0 +1,1 @@
+select l.Loan_ID, l.Loan_type, l.Total_loan_amount, sum(r.amount_paid) as total_paid, case when max(r.days_past_due) >90 then 'NPA' else 'standard' end as Asset_classification from loans l join repayments r on l.loan_id = r.loan_id group by l.Loan_ID, l.Loan_type, l.Total_loan_amount;
